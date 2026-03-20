@@ -12,6 +12,7 @@ COPY restore.sh /restore.sh
 COPY start.sh /start.sh
 
 RUN chmod +x /backup.sh /restore.sh /start.sh
+RUN ls -la /plugins/
 
 EXPOSE 25565
 
