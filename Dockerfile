@@ -1,0 +1,11 @@
+FROM itzg/minecraft-server:java8-jdk
+
+ENV EULA=TRUE
+ENV TYPE=PAPER
+ENV VERSION=1.12.2
+ENV MEMORY=512m
+ENV ONLINE_MODE=TRUE
+
+EXPOSE 25565
+
+CMD ["/start"]
