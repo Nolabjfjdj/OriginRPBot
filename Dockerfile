@@ -1,5 +1,5 @@
 # OriginRP Server
-FROM itzg/minecraft-server:java8-jdk
+FROM itzg/minecraft-server:java17
 
 ENV EULA=TRUE
 ENV TYPE=PAPER
