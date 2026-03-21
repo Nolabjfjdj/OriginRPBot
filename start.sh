@@ -10,6 +10,7 @@ bash /restore.sh
 if [ ! -d "/data/world" ]; then
     echo "[OriginRP] Extraction du monde pré-généré..."
     unzip /world.zip -d /data/
+    chmod -R 777 /data/world /data/world_nether /data/world_the_end
     echo "[OriginRP] Monde extrait !"
 else
     echo "[OriginRP] Monde existant trouvé, pas d'extraction"
