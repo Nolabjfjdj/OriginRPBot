@@ -1,0 +1,15 @@
+{
+  "name": "aternos-keepalive-bot",
+  "version": "1.0.0",
+  "description": "Bot Mineflayer pour maintenir un serveur Aternos actif",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "mineflayer": "^4.20.0"
+  }
+}
