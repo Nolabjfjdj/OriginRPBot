@@ -28,7 +28,7 @@ function createBot() {
     username: USERNAME,
     version: VERSION,
     auth: "offline",
-    hideErrors: true,
+    hideErrors: false,
   })
   bot.on("error", function(err) {
     console.log("[Bot] Erreur : " + err.message)
