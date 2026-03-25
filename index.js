@@ -3,7 +3,7 @@ const http = require("http")
 
 const SERVERS = [
   { host: "OriginRPFR.aternos.me", port: 36675 },
-  { host: "rasbora.aternos.host", port: 36675 }
+  { host: "weeverfish.aternos.host", port: 36675 }
 ]
 
 let serverIndex = 0
